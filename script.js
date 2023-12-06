@@ -1,5 +1,5 @@
 let IMG = document.getElementById("productimg");
-let BTN = document.getElementsByClassName("btn");
+let BTNS = document.getElementsByClassName("btn");
 
 BTNS[0].onclick = function () {
   IMG.src = "./images/image1.png";
